@@ -59,7 +59,7 @@ html {
 }
 body {
 	font-size: 16px; /*1REM = 10 PX*/
-	font-family: "Krub", sans-serif;
+	font-family: 'Krub', sans-serif;
 	/* para hacer un degradado  */
 	/* lo primero que debes que pasar es de donde a donde va el degradado */
 	/* depues el color
@@ -307,20 +307,20 @@ h3 {
 	align-items: flex-end;
 }
 /* en esta parte debemos indicar en que secciones debemos que se haga scroll
-debemos poner todas ya que si no puede se bloqueara y no podra bajar o subir */
+debemos poner todas ya que si no puede se bloqueara y no podrá bajar o subir */
 .mis_servicios,
 .navegacion_principal,
 .formulario {
-	/* en esta parte se pondra en donde se pondra el scroll */
+	/* en esta parte se pondrá en donde se pondrá el scroll */
 	scroll-snap-align: center;
 	scroll-snap-stop: always;
 }
 @media (min-width: 768px) {
 	.mis_servicios {
 		/* usando grid para los servicios para el posicionamiento */
-		/* grid nos permite definir la ubicacion y el tamano */
-		/* diferencia de flex se posiciona automaticamente mediante cree
-         GRID el contenido se agruga mediante una area definida*/
+		/* grid nos permite definir la ubicación y el tamano */
+		/* diferencia de flex se posiciona automáticamente mediante cree
+         GRID el contenido se agrupan mediante una area definida*/
 		display: grid;
 		/* 
         grid-template-
@@ -335,7 +335,7 @@ debemos poner todas ya que si no puede se bloqueara y no podra bajar o subir */
 		/* grid: 200px 800px / 300px 300px; */
 
 		/* 
-            este codigo es igual a usarlo con fracciones la notacio es fr    
+            este código es igual a usarlo con fracciones la notación es fr    
         grid-template-columns: 33.3% 33.3% 33.3%; */
 
 		/*  si te da flojera escribir 3 veces 1fr */
@@ -343,7 +343,7 @@ debemos poner todas ya que si no puede se bloqueara y no podra bajar o subir */
 
 		grid-template-columns: repeat(3, 1fr);
 
-		/* otra manera mas facil de usar y con menos codigo es con
+		/* otra manera mas fácil de usar y con menos código es con
         GORID:
                 primero son los rows (las columnas) dividiendo con una "/" para hacer el cambio para columnas */
 
@@ -374,7 +374,7 @@ debemos poner todas ya que si no puede se bloqueara y no podra bajar o subir */
 	height: 15rem;
 	width: 15rem;
 	background-color: var(--primario);
-	/* para hacer circulos se hace asi */
+	/* para hacer círculos se hace asi */
 	border-radius: 50%;
 	display: flex;
 	justify-content: space-evenly;
@@ -383,8 +383,8 @@ debemos poner todas ya que si no puede se bloqueara y no podra bajar o subir */
 
 .formulario {
 	background-color: var(--gris);
-	/* utliza el valor minimo*/
-	/* compara si es mas pequeno 600px o 1120
+	/* utiliza el valor mínimo*/
+	/* compara si es mas pequeño 600px o 1120
     entonces tomara 60rem */
 	width: min(60rem, 100%);
 	/* cuando usamos este es cuando el padre no tiene display flex por que tiene display block */
