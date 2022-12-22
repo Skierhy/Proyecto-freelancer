@@ -238,7 +238,7 @@ h3 {
 /* HERO */
 .hero {
 	/* para los dos puntos son para salirse de la carpeta por que estoy dentro de la carpeta de css */
-	background-image: url('./img/hero.jpg');
+	background-image: url('img/hero.jpg');
 	/* para que no se repita varias veces la misma imagen */
 	background-repeat: no-repeat;
 	/* para que abarque toda la pantalla la imagen */
